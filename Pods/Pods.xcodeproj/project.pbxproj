@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A952ACFA4B89C789459A9D256410F0 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE5509FF38D286069C0DC6334563F73 /* TinyConstraints-dummy.m */; };
+		14ACDDC256B15B6D33A6721DCD994634 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC11A7A4CF18C6225F2640F0A24A3C60 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		195647A4CC541BAC0D9E4500F4D3D5BC /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD86F5AD113EACE659A543911385CA0C /* TinyEdgeInsets.swift */; };
+		27047BE65AC763323722E414FE9CB921 /* PKTouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686196B81DC7833E0DF56AE72930E6DF /* PKTouchBarController.swift */; };
+		282DFB72018FBF402995F42E055FA99F /* PockKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B017EEA2BEA2051956E8BCC6811B154 /* PockKit-dummy.m */; };
+		292820F3AB51FE1B37747C353301C1A7 /* PKWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C9E27736A109DFFE67E64103E9815 /* PKWidget.swift */; };
+		2AEAF63CEB4E515B0DBC5D51ADE52869 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16AD61F14D2068D73A393D965885F11 /* Cocoa.framework */; };
+		2D3318B9519760BE6FFF370213B942C4 /* Pods-Arrow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3110E4300BB0525B4695D495AB81E4 /* Pods-Arrow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3172B8F268AAED5141E6127EDF7A8BE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16AD61F14D2068D73A393D965885F11 /* Cocoa.framework */; };
+		319B9CEE7B87223E7026C98918AB6C4A /* PKScreenEdgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4901A3929DB8C0EC3BD940B8D2DE336 /* PKScreenEdgeController.swift */; };
+		3EA8E692628C7B591D2CBD65B9D65EC9 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B691073E555786E5B09CECC963ADE0DE /* TinyConstraints.swift */; };
+		47F98A6A3DC4FA3C3539DC69501FDEA0 /* PKScreenEdgeMouseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF211F7E286FBC64679D10A4EAC21A /* PKScreenEdgeMouseDelegate.swift */; };
+		5E1AEBB52A89A0B316B8650BC1FC54A4 /* ScrollingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDF7F9B5D8DB195845FEA168F4F1EA /* ScrollingTextView.swift */; };
+		64D7DECCF96E68D69F0FFF9DF944B64D /* PKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67E82EB73C9268158FAFA0E3022959 /* PKButton.swift */; };
+		84D682EDBBA1B2401FCF6EE31B181BD3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2428C7A34D19A0958E5B2F7BBE991092 /* AppKit.framework */; };
+		8C6EE03CB3D89659B27ABF075A2A6450 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305D8566B2B4DF25556945B2FB4B9C2 /* TinyConstraints+superview.swift */; };
+		9232C8DE713C563139418E8D69EB9620 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16AD61F14D2068D73A393D965885F11 /* Cocoa.framework */; };
+		92C9E84942D94C2A1FB294C78ABA404B /* PKTouchBarNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195293DD20962CCBBBCBFCDD9787F72 /* PKTouchBarNavigationController.swift */; };
+		96A7CE7BF1BBF2C0D531DA3278023DEE /* PKScreenEdgeBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6B2E066B66CD8A99DB63B7EA39FB8 /* PKScreenEdgeBaseController.swift */; };
+		B96153DFEBA7ADFCE53DBAD060A44F2D /* PockKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A9CA75AC32679148309764B74F7B44 /* PockKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9CE1F0349247960B44A53588D512ECF /* PKTouchBarMouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35BF6C0342846917760472249299EF /* PKTouchBarMouseController.swift */; };
+		C37E6CFC7E7BD55165B66F4E866D0113 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C5875C517B040D9DCAC374611D5620 /* Constrainable.swift */; };
+		C563AED2761664B50F11AC4667863A54 /* PKDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC4ECF5CEAC982D48AFCFA4D429715 /* PKDetailView.swift */; };
+		C61963529788EE7F47231E0AB646A40E /* PKWidgetPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7E59B72729F105BB7261B7F4F054 /* PKWidgetPreference.swift */; };
+		CAEF3E4EF8B23E8A74E31B6A511D0433 /* PKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC2B1C7D20EB89C15948047D6E8B46 /* PKView.swift */; };
+		D1180C4C9C1B02ACB256375A9DAB7EA0 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CB1DCCF43083BCCF559ACF8EA76C6 /* Abstraction.swift */; };
+		D15349228542F2BD806FC1B4BEAFACE7 /* Pods-Arrow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B33B0EA7B2810963495168282CDE70A /* Pods-Arrow-dummy.m */; };
+		D5914F734A06A333AB7618BD156C0A85 /* PKDraggingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF66AD5615C1D632AF49C56546EA03 /* PKDraggingInfoView.swift */; };
+		DBC96C9956C9C92F02B86DD4F687A501 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A66742ECF71954A5475783AAD538A /* Stack.swift */; };
+		F3D937CF5D5604FBBDDA94749C56DD51 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22325D785B63FD6DB408ED8F27BD02 /* Constraints.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0BE4A9C56FFBA6BFEA9B59CA143072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		9E1EB785B200FAE3E82701580169144C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C22A67A47441A5638F495BAFBB0D1F3;
+			remoteInfo = PockKit;
+		};
+		AA72F36053186AEC2AC25B76A40180A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B6B2E066B66CD8A99DB63B7EA39FB8 /* PKScreenEdgeBaseController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKScreenEdgeBaseController.swift; path = PockKit/Sources/Protocols/PKScreenEdgeController/PKScreenEdgeBaseController.swift; sourceTree = "<group>"; };
+		0B9A604FB4028D39C0282BBE65D9C70A /* Pods-Arrow-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arrow-frameworks.sh"; sourceTree = "<group>"; };
+		0E6F7E59B72729F105BB7261B7F4F054 /* PKWidgetPreference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKWidgetPreference.swift; path = PockKit/Sources/Protocols/PKWidgetPreference.swift; sourceTree = "<group>"; };
+		142CF7C4A178AA5C7719979D1C769670 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
+		15EBA151FDF7D761420D173CBB71E829 /* PockKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PockKit-Info.plist"; sourceTree = "<group>"; };
+		16A939F4A7D5AB3A7F803A2666896975 /* PockKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PockKit.modulemap; sourceTree = "<group>"; };
+		1E3110E4300BB0525B4695D495AB81E4 /* Pods-Arrow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arrow-umbrella.h"; sourceTree = "<group>"; };
+		2195293DD20962CCBBBCBFCDD9787F72 /* PKTouchBarNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKTouchBarNavigationController.swift; path = PockKit/Sources/Controllers/PKTouchBarNavigationController.swift; sourceTree = "<group>"; };
+		21AC92AFD549F139A3165C33AA1BF5B7 /* Pods-Arrow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arrow-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2428C7A34D19A0958E5B2F7BBE991092 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		248EB203AE249596FFC55952F5590D95 /* TinyConstraints */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C35BF6C0342846917760472249299EF /* PKTouchBarMouseController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKTouchBarMouseController.swift; path = PockKit/Sources/Controllers/PKTouchBarMouseController.swift; sourceTree = "<group>"; };
+		300594385E8248EF020FAA447E1A26FB /* TinyConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.debug.xcconfig; sourceTree = "<group>"; };
+		35FC4ECF5CEAC982D48AFCFA4D429715 /* PKDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKDetailView.swift; path = PockKit/Sources/Views/PKDetailView.swift; sourceTree = "<group>"; };
+		3929A20447CEBE3217521FCF1C867BD8 /* Pods-Arrow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arrow-acknowledgements.plist"; sourceTree = "<group>"; };
+		5305333DC4EF8057E362BC7926322182 /* PockKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PockKit-prefix.pch"; sourceTree = "<group>"; };
+		57CF211F7E286FBC64679D10A4EAC21A /* PKScreenEdgeMouseDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKScreenEdgeMouseDelegate.swift; path = PockKit/Sources/Protocols/PKScreenEdgeController/PKScreenEdgeMouseDelegate.swift; sourceTree = "<group>"; };
+		5B017EEA2BEA2051956E8BCC6811B154 /* PockKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PockKit-dummy.m"; sourceTree = "<group>"; };
+		5B237ACE376BAE185C2F08617C315DC8 /* Pods-Arrow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arrow.modulemap"; sourceTree = "<group>"; };
+		686196B81DC7833E0DF56AE72930E6DF /* PKTouchBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKTouchBarController.swift; path = PockKit/Sources/Controllers/PKTouchBarController.swift; sourceTree = "<group>"; };
+		68C5875C517B040D9DCAC374611D5620 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		6BF9E43891AC58BEF1DD315BED8B950F /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
+		6D326CCACC5674AD0F10B08465235262 /* PockKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PockKit; path = PockKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A25DDCC4207F62AFF309971A9C6964 /* Pods-Arrow */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Arrow"; path = Pods_Arrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7649C12AFDD12F4FF865B33C16CDBB03 /* PockKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PockKit.release.xcconfig; sourceTree = "<group>"; };
+		7968B15ACC894E807D794E329F603829 /* Pods-Arrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arrow.debug.xcconfig"; sourceTree = "<group>"; };
+		81EBEAE1E54655378393CA2611FD26F1 /* TinyConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.release.xcconfig; sourceTree = "<group>"; };
+		834C9E27736A109DFFE67E64103E9815 /* PKWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKWidget.swift; path = PockKit/Sources/Protocols/PKWidget.swift; sourceTree = "<group>"; };
+		854BD3E1B4C347A126752F5D3663E325 /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		96DC2B1C7D20EB89C15948047D6E8B46 /* PKView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKView.swift; path = PockKit/Sources/Views/PKView.swift; sourceTree = "<group>"; };
+		9B33B0EA7B2810963495168282CDE70A /* Pods-Arrow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arrow-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4901A3929DB8C0EC3BD940B8D2DE336 /* PKScreenEdgeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKScreenEdgeController.swift; path = PockKit/Sources/Protocols/PKScreenEdgeController/PKScreenEdgeController.swift; sourceTree = "<group>"; };
+		AC11A7A4CF18C6225F2640F0A24A3C60 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		B3FDF7F9B5D8DB195845FEA168F4F1EA /* ScrollingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingTextView.swift; path = PockKit/3rd/ScrollingTextView.swift; sourceTree = "<group>"; };
+		B691073E555786E5B09CECC963ADE0DE /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		C61B07D534390198FDC050904F086310 /* Pods-Arrow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arrow-Info.plist"; sourceTree = "<group>"; };
+		C7DF66AD5615C1D632AF49C56546EA03 /* PKDraggingInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKDraggingInfoView.swift; path = PockKit/Sources/Views/PKDraggingInfoView.swift; sourceTree = "<group>"; };
+		CC67E82EB73C9268158FAFA0E3022959 /* PKButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKButton.swift; path = PockKit/Sources/Views/PKButton.swift; sourceTree = "<group>"; };
+		D305D8566B2B4DF25556945B2FB4B9C2 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
+		D3A9CA75AC32679148309764B74F7B44 /* PockKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PockKit-umbrella.h"; sourceTree = "<group>"; };
+		D4C399CB08A0CCA90705D81FE5857A69 /* PockKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PockKit.debug.xcconfig; sourceTree = "<group>"; };
+		DD22325D785B63FD6DB408ED8F27BD02 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		E16AD61F14D2068D73A393D965885F11 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		EF3A66742ECF71954A5475783AAD538A /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		F69CB1DCCF43083BCCF559ACF8EA76C6 /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		FBE5509FF38D286069C0DC6334563F73 /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		FC084943C524BDAE077B94FF87A74245 /* Pods-Arrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arrow.release.xcconfig"; sourceTree = "<group>"; };
+		FD86F5AD113EACE659A543911385CA0C /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024002D0A800579C58752B20A0F33A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D682EDBBA1B2401FCF6EE31B181BD3 /* AppKit.framework in Frameworks */,
+				2AEAF63CEB4E515B0DBC5D51ADE52869 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC59E619A7820DEC0ECF48280BD98A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9232C8DE713C563139418E8D69EB9620 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF86BA35CDE2CD43591135FCD235EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3172B8F268AAED5141E6127EDF7A8BE4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA1A367F37D20C6595D97E75A2B28F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16A939F4A7D5AB3A7F803A2666896975 /* PockKit.modulemap */,
+				5B017EEA2BEA2051956E8BCC6811B154 /* PockKit-dummy.m */,
+				15EBA151FDF7D761420D173CBB71E829 /* PockKit-Info.plist */,
+				5305333DC4EF8057E362BC7926322182 /* PockKit-prefix.pch */,
+				D3A9CA75AC32679148309764B74F7B44 /* PockKit-umbrella.h */,
+				D4C399CB08A0CCA90705D81FE5857A69 /* PockKit.debug.xcconfig */,
+				7649C12AFDD12F4FF865B33C16CDBB03 /* PockKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PockKit";
+			sourceTree = "<group>";
+		};
+		396439455E8E8EEF82365EED3C278B8B /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				2428C7A34D19A0958E5B2F7BBE991092 /* AppKit.framework */,
+				E16AD61F14D2068D73A393D965885F11 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		3E769C35EFFCF9D1A92781A31220659D /* PockKit */ = {
+			isa = PBXGroup;
+			children = (
+				8287281FC01D0C4D634BACB8D6FFFB84 /* 3rd */,
+				5B9EDE19B226C4AA754959EC8D079088 /* Sources */,
+				0AA1A367F37D20C6595D97E75A2B28F6 /* Support Files */,
+			);
+			name = PockKit;
+			path = PockKit;
+			sourceTree = "<group>";
+		};
+		5B9EDE19B226C4AA754959EC8D079088 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CC67E82EB73C9268158FAFA0E3022959 /* PKButton.swift */,
+				35FC4ECF5CEAC982D48AFCFA4D429715 /* PKDetailView.swift */,
+				C7DF66AD5615C1D632AF49C56546EA03 /* PKDraggingInfoView.swift */,
+				03B6B2E066B66CD8A99DB63B7EA39FB8 /* PKScreenEdgeBaseController.swift */,
+				A4901A3929DB8C0EC3BD940B8D2DE336 /* PKScreenEdgeController.swift */,
+				57CF211F7E286FBC64679D10A4EAC21A /* PKScreenEdgeMouseDelegate.swift */,
+				686196B81DC7833E0DF56AE72930E6DF /* PKTouchBarController.swift */,
+				2C35BF6C0342846917760472249299EF /* PKTouchBarMouseController.swift */,
+				2195293DD20962CCBBBCBFCDD9787F72 /* PKTouchBarNavigationController.swift */,
+				96DC2B1C7D20EB89C15948047D6E8B46 /* PKView.swift */,
+				834C9E27736A109DFFE67E64103E9815 /* PKWidget.swift */,
+				0E6F7E59B72729F105BB7261B7F4F054 /* PKWidgetPreference.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		755451AC5876DC7C0991BBB3F2C39821 /* Pods-Arrow */ = {
+			isa = PBXGroup;
+			children = (
+				5B237ACE376BAE185C2F08617C315DC8 /* Pods-Arrow.modulemap */,
+				21AC92AFD549F139A3165C33AA1BF5B7 /* Pods-Arrow-acknowledgements.markdown */,
+				3929A20447CEBE3217521FCF1C867BD8 /* Pods-Arrow-acknowledgements.plist */,
+				9B33B0EA7B2810963495168282CDE70A /* Pods-Arrow-dummy.m */,
+				0B9A604FB4028D39C0282BBE65D9C70A /* Pods-Arrow-frameworks.sh */,
+				C61B07D534390198FDC050904F086310 /* Pods-Arrow-Info.plist */,
+				1E3110E4300BB0525B4695D495AB81E4 /* Pods-Arrow-umbrella.h */,
+				7968B15ACC894E807D794E329F603829 /* Pods-Arrow.debug.xcconfig */,
+				FC084943C524BDAE077B94FF87A74245 /* Pods-Arrow.release.xcconfig */,
+			);
+			name = "Pods-Arrow";
+			path = "Target Support Files/Pods-Arrow";
+			sourceTree = "<group>";
+		};
+		8287281FC01D0C4D634BACB8D6FFFB84 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				B3FDF7F9B5D8DB195845FEA168F4F1EA /* ScrollingTextView.swift */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		87E45AB887F6D84DEB5A37B21C838A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D326CCACC5674AD0F10B08465235262 /* PockKit */,
+				74A25DDCC4207F62AFF309971A9C6964 /* Pods-Arrow */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93787CF213D0A39B160299BD49918ACB /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				F69CB1DCCF43083BCCF559ACF8EA76C6 /* Abstraction.swift */,
+				68C5875C517B040D9DCAC374611D5620 /* Constrainable.swift */,
+				DD22325D785B63FD6DB408ED8F27BD02 /* Constraints.swift */,
+				EF3A66742ECF71954A5475783AAD538A /* Stack.swift */,
+				B691073E555786E5B09CECC963ADE0DE /* TinyConstraints.swift */,
+				D305D8566B2B4DF25556945B2FB4B9C2 /* TinyConstraints+superview.swift */,
+				FD86F5AD113EACE659A543911385CA0C /* TinyEdgeInsets.swift */,
+				B604A28360C474BE2403209A558AC275 /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+		960C953960B5560B8BB5277D3F9FD1B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				755451AC5876DC7C0991BBB3F2C39821 /* Pods-Arrow */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B604A28360C474BE2403209A558AC275 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				854BD3E1B4C347A126752F5D3663E325 /* TinyConstraints.modulemap */,
+				FBE5509FF38D286069C0DC6334563F73 /* TinyConstraints-dummy.m */,
+				142CF7C4A178AA5C7719979D1C769670 /* TinyConstraints-Info.plist */,
+				6BF9E43891AC58BEF1DD315BED8B950F /* TinyConstraints-prefix.pch */,
+				AC11A7A4CF18C6225F2640F0A24A3C60 /* TinyConstraints-umbrella.h */,
+				300594385E8248EF020FAA447E1A26FB /* TinyConstraints.debug.xcconfig */,
+				81EBEAE1E54655378393CA2611FD26F1 /* TinyConstraints.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
+			sourceTree = "<group>";
+		};
+		C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				396439455E8E8EEF82365EED3C278B8B /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */,
+				DD3D42BF47D529BF1A473B95DB53EAB9 /* Pods */,
+				87E45AB887F6D84DEB5A37B21C838A84 /* Products */,
+				960C953960B5560B8BB5277D3F9FD1B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3D42BF47D529BF1A473B95DB53EAB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E769C35EFFCF9D1A92781A31220659D /* PockKit */,
+				93787CF213D0A39B160299BD49918ACB /* TinyConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0975CF8BC6A996DD531B6E431905E582 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3318B9519760BE6FFF370213B942C4 /* Pods-Arrow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A98A8DEA7695D4ACF0BC6EC7CD5D9C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ACDDC256B15B6D33A6721DCD994634 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3069729AA3C86BC9B7AA0E6A0DC28D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96153DFEBA7ADFCE53DBAD060A44F2D /* PockKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C22A67A47441A5638F495BAFBB0D1F3 /* PockKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC9D3C96A3663C58F267F0414D2206A /* Build configuration list for PBXNativeTarget "PockKit" */;
+			buildPhases = (
+				D3069729AA3C86BC9B7AA0E6A0DC28D8 /* Headers */,
+				BA5F44C8F260AF1558D2247EF4B1A5FC /* Sources */,
+				024002D0A800579C58752B20A0F33A22 /* Frameworks */,
+				EF6581B64CB082A37AE62CE0A8421907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A646BA57D002EA0F0AFA646CA285057 /* PBXTargetDependency */,
+			);
+			name = PockKit;
+			productName = PockKit;
+			productReference = 6D326CCACC5674AD0F10B08465235262 /* PockKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CC165AC2EB614D6D33971995F34ACA /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				1A98A8DEA7695D4ACF0BC6EC7CD5D9C0 /* Headers */,
+				6E02F51868033FD38B1FFE63264358F3 /* Sources */,
+				9FC59E619A7820DEC0ECF48280BD98A4 /* Frameworks */,
+				77FCFB3B2DCF505F0C426726CE442D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints */;
+			productType = "com.apple.product-type.framework";
+		};
+		F074B54D41EE11340A58B023BCADC4C9 /* Pods-Arrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB8C8FD51213C7B0DAA61E0B53FEC76 /* Build configuration list for PBXNativeTarget "Pods-Arrow" */;
+			buildPhases = (
+				0975CF8BC6A996DD531B6E431905E582 /* Headers */,
+				8AD63C69212996A94160DBE9976FE9C9 /* Sources */,
+				CBF86BA35CDE2CD43591135FCD235EEC /* Frameworks */,
+				5AD475A17641F66E377CCD1ABEA7CE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14FC125C45686E4F8E54BFAFF3016BD4 /* PBXTargetDependency */,
+				A9F8B2AED3441C246A20E9930666F8AD /* PBXTargetDependency */,
+			);
+			name = "Pods-Arrow";
+			productName = Pods_Arrow;
+			productReference = 74A25DDCC4207F62AFF309971A9C6964 /* Pods-Arrow */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 87E45AB887F6D84DEB5A37B21C838A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C22A67A47441A5638F495BAFBB0D1F3 /* PockKit */,
+				F074B54D41EE11340A58B023BCADC4C9 /* Pods-Arrow */,
+				45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD475A17641F66E377CCD1ABEA7CE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FCFB3B2DCF505F0C426726CE442D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6581B64CB082A37AE62CE0A8421907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E02F51868033FD38B1FFE63264358F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1180C4C9C1B02ACB256375A9DAB7EA0 /* Abstraction.swift in Sources */,
+				C37E6CFC7E7BD55165B66F4E866D0113 /* Constrainable.swift in Sources */,
+				F3D937CF5D5604FBBDDA94749C56DD51 /* Constraints.swift in Sources */,
+				DBC96C9956C9C92F02B86DD4F687A501 /* Stack.swift in Sources */,
+				3EA8E692628C7B591D2CBD65B9D65EC9 /* TinyConstraints.swift in Sources */,
+				8C6EE03CB3D89659B27ABF075A2A6450 /* TinyConstraints+superview.swift in Sources */,
+				03A952ACFA4B89C789459A9D256410F0 /* TinyConstraints-dummy.m in Sources */,
+				195647A4CC541BAC0D9E4500F4D3D5BC /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD63C69212996A94160DBE9976FE9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15349228542F2BD806FC1B4BEAFACE7 /* Pods-Arrow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5F44C8F260AF1558D2247EF4B1A5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D7DECCF96E68D69F0FFF9DF944B64D /* PKButton.swift in Sources */,
+				C563AED2761664B50F11AC4667863A54 /* PKDetailView.swift in Sources */,
+				D5914F734A06A333AB7618BD156C0A85 /* PKDraggingInfoView.swift in Sources */,
+				96A7CE7BF1BBF2C0D531DA3278023DEE /* PKScreenEdgeBaseController.swift in Sources */,
+				319B9CEE7B87223E7026C98918AB6C4A /* PKScreenEdgeController.swift in Sources */,
+				47F98A6A3DC4FA3C3539DC69501FDEA0 /* PKScreenEdgeMouseDelegate.swift in Sources */,
+				27047BE65AC763323722E414FE9CB921 /* PKTouchBarController.swift in Sources */,
+				B9CE1F0349247960B44A53588D512ECF /* PKTouchBarMouseController.swift in Sources */,
+				92C9E84942D94C2A1FB294C78ABA404B /* PKTouchBarNavigationController.swift in Sources */,
+				CAEF3E4EF8B23E8A74E31B6A511D0433 /* PKView.swift in Sources */,
+				292820F3AB51FE1B37747C353301C1A7 /* PKWidget.swift in Sources */,
+				C61963529788EE7F47231E0AB646A40E /* PKWidgetPreference.swift in Sources */,
+				282DFB72018FBF402995F42E055FA99F /* PockKit-dummy.m in Sources */,
+				5E1AEBB52A89A0B316B8650BC1FC54A4 /* ScrollingTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14FC125C45686E4F8E54BFAFF3016BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PockKit;
+			target = 0C22A67A47441A5638F495BAFBB0D1F3 /* PockKit */;
+			targetProxy = 9E1EB785B200FAE3E82701580169144C /* PBXContainerItemProxy */;
+		};
+		1A646BA57D002EA0F0AFA646CA285057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = AA72F36053186AEC2AC25B76A40180A1 /* PBXContainerItemProxy */;
+		};
+		A9F8B2AED3441C246A20E9930666F8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = 3F0BE4A9C56FFBA6BFEA9B59CA143072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3599FF870E1A079C360394E4D0F93603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC084943C524BDAE077B94FF87A74245 /* Pods-Arrow.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arrow/Pods-Arrow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arrow/Pods-Arrow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F6F8635E106FDB73028436AF787869F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EBEAE1E54655378393CA2611FD26F1 /* TinyConstraints.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		930E226C21F64A571D1CB76E18AB1F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3F7C939CDB3025FAEB1CB79A8ECAEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7968B15ACC894E807D794E329F603829 /* Pods-Arrow.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arrow/Pods-Arrow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arrow/Pods-Arrow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B642388FA957B5343318C429B7A138B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C399CB08A0CCA90705D81FE5857A69 /* PockKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PockKit/PockKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PockKit/PockKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/PockKit/PockKit.modulemap";
+				PRODUCT_MODULE_NAME = PockKit;
+				PRODUCT_NAME = PockKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B71873917D0ED6E1C976C88704C05BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CAA1490F2D790CEE34BFDD933B4F4C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300594385E8248EF020FAA447E1A26FB /* TinyConstraints.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC4C53A4F1CE95695F1142F66E9FA6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7649C12AFDD12F4FF865B33C16CDBB03 /* PockKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PockKit/PockKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PockKit/PockKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/PockKit/PockKit.modulemap";
+				PRODUCT_MODULE_NAME = PockKit;
+				PRODUCT_NAME = PockKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71873917D0ED6E1C976C88704C05BF3 /* Debug */,
+				930E226C21F64A571D1CB76E18AB1F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CC165AC2EB614D6D33971995F34ACA /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA1490F2D790CEE34BFDD933B4F4C7A /* Debug */,
+				7F6F8635E106FDB73028436AF787869F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC9D3C96A3663C58F267F0414D2206A /* Build configuration list for PBXNativeTarget "PockKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B642388FA957B5343318C429B7A138B2 /* Debug */,
+				DC4C53A4F1CE95695F1142F66E9FA6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB8C8FD51213C7B0DAA61E0B53FEC76 /* Build configuration list for PBXNativeTarget "Pods-Arrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F7C939CDB3025FAEB1CB79A8ECAEA5 /* Debug */,
+				3599FF870E1A079C360394E4D0F93603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
